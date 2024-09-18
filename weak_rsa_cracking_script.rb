@@ -1,5 +1,6 @@
 # frozen_string_literal: true
-## inspired by an RSA practice challenge
+
+# inspired by an RSA practice challenge
 
 ## use able with smaller primes.
 
