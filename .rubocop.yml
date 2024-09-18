@@ -7,9 +7,6 @@ AllCops:
     - 'bin/*'
 
 # Enable or configure specific cops directly
-Gemspec/DeprecatedAttributeAssignment:
-  Enabled: true
-
 Gemspec/DevelopmentDependencies:
   Enabled: true
 
