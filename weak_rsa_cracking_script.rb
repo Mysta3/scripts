@@ -36,7 +36,7 @@ decrypted_message = []
 phi = (p - 1) * (q - 1)
 
 ## must convert the phi to a BN object
-## phi is used to find the private key 
+## phi is used to find the private key
 phi = OpenSSL::BN.new(phi.to_s)
 
 ## find the other half of the private key
@@ -52,5 +52,4 @@ c.each do |i|
 end
 
 ## print encrypted message.
-print decrypted_message.join('')
-
+print decrypted_message.join
