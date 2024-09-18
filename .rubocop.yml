@@ -5,45 +5,67 @@ AllCops:
   Exclude:
     - 'db/schema.rb'
     - 'bin/*'
-  Gemspec/DeprecatedAttributeAssignment: # new in 1.30
-    Enabled: true
-  Gemspec/DevelopmentDependencies: # new in 1.44
-    Enabled: true
-  Gemspec/RequireMFA: # new in 1.23
-    Enabled: true
-  Layout/LineContinuationLeadingSpace: # new in 1.31
-    Enabled: true
-  Layout/LineContinuationSpacing: # new in 1.31
-    Enabled: true
-  Layout/LineEndStringConcatenationIndentation: # new in 1.18
-    Enabled: true
-  Layout/SpaceBeforeBrackets: # new in 1.7
-    Enabled: true
-  Lint/AmbiguousAssignment: # new in 1.7
-    Enabled: true
-  Lint/AmbiguousOperatorPrecedence: # new in 1.21
-    Enabled: true
-  Lint/AmbiguousRange: # new in 1.19
-    Enabled: true
-  Lint/ConstantOverwrittenInRescue: # new in 1.31
-    Enabled: true
-  Lint/DeprecatedConstants: # new in 1.8
-    Enabled: true
-  Lint/DuplicateBranch: # new in 1.3
-    Enabled: true
-  Lint/DuplicateMagicComment: # new in 1.37
-    Enabled: true
-  Lint/DuplicateMatchPattern: # new in 1.50
-    Enabled: true
-  Lint/DuplicateRegexpCharacterClassElement: # new in 1.1
-    Enabled: true
-  Lint/EmptyBlock: # new in 1.1
-    Enabled: true
-  Lint/EmptyClass: # new in 1.3
-    Enabled: true
-  Lint/EmptyInPattern: # new in 1.16
-    Enabled: true
-  Lint/IncompatibleIoSelectWithFiberScheduler: # new in 1.21
-    Enabled: true
-  Lint/LambdaWithoutLiteralBlock: # new in 1.8
 
+# Enable or configure specific cops directly
+Gemspec/DeprecatedAttributeAssignment:
+  Enabled: true
+
+Gemspec/DevelopmentDependencies:
+  Enabled: true
+
+Gemspec/RequireMFA:
+  Enabled: true
+
+Layout/LineContinuationLeadingSpace:
+  Enabled: true
+
+Layout/LineContinuationSpacing:
+  Enabled: true
+
+Layout/LineEndStringConcatenationIndentation:
+  Enabled: true
+
+Layout/SpaceBeforeBrackets:
+  Enabled: true
+
+Lint/AmbiguousAssignment:
+  Enabled: true
+
+Lint/AmbiguousOperatorPrecedence:
+  Enabled: true
+
+Lint/AmbiguousRange:
+  Enabled: true
+
+Lint/ConstantOverwrittenInRescue:
+  Enabled: true
+
+Lint/DeprecatedConstants:
+  Enabled: true
+
+Lint/DuplicateBranch:
+  Enabled: true
+
+Lint/DuplicateMagicComment:
+  Enabled: true
+
+Lint/DuplicateMatchPattern:
+  Enabled: true
+
+Lint/DuplicateRegexpCharacterClassElement:
+  Enabled: true
+
+Lint/EmptyBlock:
+  Enabled: true
+
+Lint/EmptyClass:
+  Enabled: true
+
+Lint/EmptyInPattern:
+  Enabled: true
+
+Lint/IncompatibleIoSelectWithFiberScheduler:
+  Enabled: true
+
+Lint/LambdaWithoutLiteralBlock:
+  Enabled: true
